@@ -9,5 +9,8 @@ package AbsTract;
  * @author Edgar Caasalan
  */
 public abstract class Pets {
-    
-}
+   
+    abstract void color();
+        
+    }
+

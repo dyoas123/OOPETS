@@ -8,6 +8,8 @@ package AbsTract;
  *
  * @author Edgar Caasalan
  */
-public class Dog {
-    
+public class Dog extends Pets{
+    void color(){
+        System.out.println("Black & white");
+    }
 }

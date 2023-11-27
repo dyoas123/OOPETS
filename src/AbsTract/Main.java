@@ -15,6 +15,8 @@ public class Main {
         
         Pets d = new Dog() ;
         Pets c = new Cat();
-        
+       
+        d.color();
+        c.color();
     }
 }

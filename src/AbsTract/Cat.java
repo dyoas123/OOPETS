@@ -8,6 +8,10 @@ package AbsTract;
  *
  * @author Edgar Caasalan
  */
-public class Cat {
+public class Cat extends Pets {
+    void color(){
+        System.out.println("Orange");
+    }
     
+            
 }

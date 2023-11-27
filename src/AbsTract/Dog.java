@@ -10,6 +10,6 @@ package AbsTract;
  */
 public class Dog extends Pets{
     void color(){
-        System.out.println("Black & white");
+        System.out.println(name+"Black & white");
     }
 }

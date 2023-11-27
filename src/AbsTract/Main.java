@@ -16,6 +16,12 @@ public class Main {
         Pets d = new Dog() ;
         Pets c = new Cat();
        
+        d.setName("Brownie: ");
+        c.setName("kitty galore: ");
+        
+        d.showName();
+        c.showName();
+        
         d.color();
         c.color();
     }

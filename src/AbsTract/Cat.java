@@ -10,7 +10,7 @@ package AbsTract;
  */
 public class Cat extends Pets {
     void color(){
-        System.out.println("Orange");
+        System.out.println(name+ "Orange");
     }
     
             

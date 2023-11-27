@@ -8,6 +8,6 @@ package AbsTract;
  *
  * @author Edgar Caasalan
  */
-public class Main {
+public abstract class Pets {
     
 }

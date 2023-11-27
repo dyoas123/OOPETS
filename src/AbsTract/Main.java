@@ -1,23 +1,17 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package AbsTract;
 
 
-/**
- *
- * @author Edgar Caasalan
- */
+
 public class Main {
     
     public static void main(String []args){
-        
+        System.out.println("This is my Pets");
         Pets d = new Dog() ;
         Pets c = new Cat();
        
-        d.setName("Brownie: ");
-        c.setName("kitty galore: ");
+        d.setName("Brownie, ");
+        c.setName("kitty galore, ");
         
         d.showName();
         c.showName();
